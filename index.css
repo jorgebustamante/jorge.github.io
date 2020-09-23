@@ -1,0 +1,162 @@
+/* CSS Document */
+.container-fluid {
+
+	font-family: 'Playfair Display', serif;
+    color:#333;
+    padding: 0;
+}
+
+.left {
+    background-color: #335384;
+    color:white;
+}
+
+#right {
+    width: 70%;
+}
+
+.circle {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 0px;   
+}
+
+.circle img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.box {
+    padding: 0 80px;    
+}
+
+.box h3 {
+    margin: 40px 0 20px;
+}
+
+.info{
+    margin-bottom: 15px;
+}
+
+.info i{
+    margin:0 8px;
+}
+
+.skills i{
+    font-size: 7px;
+    margin:8px 0;
+}
+
+.attestati i{
+    font-size: 7px;
+    margin:8px 0;
+}
+
+.skills i:last-child {
+    margin-right: 8px;
+}
+
+.empty{
+    color: #6689BF;
+}
+
+.box span{
+    font-size: 14px;
+}
+
+h1{
+    color: #335384;
+}
+
+h2{
+    color: #5CA7D1;
+    margin-bottom: 90px;
+}
+
+.boxright h3{
+    color: #5CA7D1;
+    margin-bottom: 20px;
+}
+
+.sottovoce{
+    font-style: oblique;
+    opacity: 0.7;
+    margin-top: -10px;    
+}
+
+.minibox{
+    margin-bottom: 60px;
+}
+
+ul{
+    padding:0 14px;
+}
+
+.attestati i{
+    font-size: 10px;
+    margin: 8px;
+}
+
+a {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover, a:visited{
+    color: #5CA7D1;
+}
+
+
+.patente{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px){
+    .patente{
+        margin-top: 40px;
+    }
+    h1 {font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.3em;
+    }
+    h4{
+        font-size: 1.1em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    li{
+        font-size: 0.8em;
+    }
+}
+
+.boxright{
+    margin: 130px 70px 0 ;
+
+}
+
+@media only screen and (max-width: 992px){
+    .boxright{
+    
+        margin: 40px 40px 0 ;
+    }
+
+    h2 {
+    
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+.patente i{
+    margin-right: 8px;
+}
